@@ -11,7 +11,7 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 
 - [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
 
-ポイント別に HTML を分けています。
+フォントのポイント別に HTML を分けています。Netlify で公開しています。
 
 - [フォント 64 ポイント https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
 - [フォント 96 ポイント https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
