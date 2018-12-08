@@ -62,7 +62,7 @@ function getsize()
 {
   if (document.cookie >= 64 && document.cookie <= 256)
   {
-    fsize = document.cookie;
+    fsize = document.cookie + 0;
     document.getElementById('textarea').style.fontSize = fsize + 'pt';
     document.cookie = fsize + ";max-age=32000000";
   }
