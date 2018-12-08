@@ -15,7 +15,7 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 
 - [フォント 64 ポイント https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
 - [フォント 96 ポイント https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
-- [フォント 128 ポイント https://kanji.netlify.com/128.html)](https://kanji.netlify.com/128.html)
+- [フォント 128 ポイント https://kanji.netlify.com/128.html](https://kanji.netlify.com/128.html)
 - [フォント 160 ポイント https://kanji.netlify.com/160.html](https://kanji.netlify.com/160.html)
 - [フォント 192 ポイント https://kanji.netlify.com/192.html](https://kanji.netlify.com/192.html)
 - [フォント 224 ポイント https://kanji.netlify.com/224.html](https://kanji.netlify.com/224.html)
