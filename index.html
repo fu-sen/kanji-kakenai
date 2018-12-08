@@ -64,6 +64,7 @@ function getsize()
   {
     fsize = document.cookie;
     document.getElementById('textarea').style.fontSize = fsize + 'pt';
+    document.cookie = fsize + ";max-age=32000000";
   }
 }
 
