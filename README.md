@@ -51,7 +51,7 @@ javascript:window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,
 
 ## 公開元・原作
 
-漢字書けな～い。は 中仙道 太郎 氏製作「漢字書けな〜い！」シリーズ作品です。<br />
+「漢字書けな～い。」は 中仙道 太郎 氏製作「漢字書けな〜い！」シリーズ作品です。<br />
 原作者 中仙道 太郎 氏より許可をいただいています。
 
 - [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
