@@ -60,12 +60,18 @@ var fsize = 128;
 
 function getsize()
 {
-  fsize = document.cookie + 0;
+  getcook = document.cookie.split(';');
+  namevalue = getcook.split('=');
+  fsize = namevalue[1] + 0;
 
   if (fsize >= 64 && fsize <= 256)
   {
     document.getElementById('textarea').style.fontSize = fsize + 'pt';
-    document.cookie = fsize + ";max-age=32000000";
+    document.cookie = "size=" + fsize + ";max-age=32000000";
+  }
+  else
+  {
+    document.cookie = "size=;max-age=32000000";
   }
 }
 
@@ -75,7 +81,7 @@ function larger()
   {
      fsize += 32;
      document.getElementById('textarea').style.fontSize = fsize + 'pt';
-     document.cookie = fsize + ";max-age=32000000";
+     document.cookie = "size=" + fsize + ";max-age=32000000";
   }
 }
 
@@ -85,7 +91,7 @@ function smaller()
   {
      fsize -= 32;
     document.getElementById('textarea').style.fontSize = fsize + 'pt';
-    document.cookie = fsize + ";max-age=32000000";
+    document.cookie = "size=" + fsize + ";max-age=32000000";
   }
 }
 </script>
