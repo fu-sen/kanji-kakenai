@@ -31,13 +31,13 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 - [Web アプリ | 漢字書けな～い。 https://kanji-kakenai.jimdo.com/web-アプリ/](https://kanji-kakenai.jimdo.com/web-%E3%82%A2%E3%83%97%E3%83%AA/)
 
 
-### リンクをクリックして、パソコン版アプリサイズで表示
+### リンクをクリックして、パソコン版アプリサイズで表示（画像の表示）
 
 ```
 <div><a onclick="window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes'); return false;" href="javascript:void window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')">漢字書けな〜い。を起動</a></div>
 ```
 
-### ブックマークレット
+### ブックマークレット（ブックマークに入れて起動）
 
 ```
 javascript:window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')
