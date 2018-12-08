@@ -58,10 +58,13 @@ a
 <script>
 var fsize = 128;
 
-if (document.cookie >= 64 && document.cookie <= 256)
+function getsize()
 {
-  fsize = document.cookie;
-  document.getElementById('textarea').style.fontSize = fsize + 'pt';
+  if (document.cookie >= 64 && document.cookie <= 256)
+  {
+    fsize = document.cookie;
+    document.getElementById('textarea').style.fontSize = fsize + 'pt';
+  }
 }
 
 function larger()
@@ -85,7 +88,7 @@ function smaller()
 }
 </script>
 </head>
-<body>
+<body onload="getsize();">
 <textarea id="textarea"></textarea>
 <button type="button" id="smaller" onclick="smaller()">－</button>
 <button type="button" id="larger"  onclick="larger()" >＋</button>
