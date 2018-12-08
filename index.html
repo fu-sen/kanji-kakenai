@@ -31,14 +31,53 @@ div
     border: #c0c0c0 solid 1px;
 }
 
+button#larger
+{
+    position:absolute;
+    right: 10px;
+    bottom: 90px;
+    color: #000000;
+    text-decoration: none;
+}
+
+button#smaller
+{
+    position:absolute;
+    right: 10px;
+    bottom: 55px;
+    color: #000000;
+    text-decoration: none;
+}
+
 a
 {
     color: #000000;
     text-decoration: none;
 }
 </style>
+<script>
+var fsize = 128;
+function larger()
+{
+  if (fsize < 256)
+  {
+     fsize += 32;
+     document.getElementById('textarea').style.fontSize = fsize + 'pt';
+  }
+}
+function smaller()
+{
+  if (fsize > 64)
+  {
+     fsize -= 32;
+    document.getElementById('textarea').style.fontSize = fsize + 'pt';
+  }
+}
+</script>
 </head>
 <body>
-<textarea></textarea>
+<textarea id="textarea"></textarea>
+<button type="button" id="smaller" onclick="smaller()">－</button>
+<button type="button" id="larger"  onclick="larger()" >＋</button>
 <div><a href="https://kanji-kakenai.jimdo.com/" target="_blank">漢字書けな～い。</a></div>
 </body>

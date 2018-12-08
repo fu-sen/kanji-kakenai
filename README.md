@@ -7,11 +7,18 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 「漢字書けな～い！」シリーズは Windows・Mac OS 8/9 を原作に、様々なアプリで公開されています。
 
 ## 使用方法
+
 「漢字書けな～い。」の Web サイトも参照して下さい。
 
 - [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
 
-フォントのポイント別に HTML を分けています。Netlify で公開しています。
+サーバは [Netlify](https://www.netlify.com/) を用いて公開しています。
+
+JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを可変できるバージョンです。
+
+- [フォント可変版 https://kanji.netlify.com/](https://kanji.netlify.com/)
+
+またはフォントのポイント別に HTML を分けています。
 
 - [フォント 64 ポイント https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
 - [フォント 96 ポイント https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
