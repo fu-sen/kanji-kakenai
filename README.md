@@ -9,17 +9,17 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 ## 使用方法
 「漢字書けな～い。」の Web サイトも参照して下さい。
 
-- [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
+- <a href="https://kanji-kakenai.jimdo.com/" target="_blank">漢字書けな～い。 https://kanji-kakenai.jimdo.com/</a>
 
 フォントのポイント別に HTML を分けています。Netlify で公開しています。
 
-- [フォント 64 ポイント https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
-- [フォント 96 ポイント https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
-- [フォント 128 ポイント https://kanji.netlify.com/128.html](https://kanji.netlify.com/128.html)
-- [フォント 160 ポイント https://kanji.netlify.com/160.html](https://kanji.netlify.com/160.html)
-- [フォント 192 ポイント https://kanji.netlify.com/192.html](https://kanji.netlify.com/192.html)
-- [フォント 224 ポイント https://kanji.netlify.com/224.html](https://kanji.netlify.com/224.html)
-- [フォント 256 ポイント https://kanji.netlify.com/256.html](https://kanji.netlify.com/256.html)
+- <a href="https://kanji.netlify.com/64.html" target="_blank">フォント 64 ポイント https://kanji.netlify.com/64.html</a>
+- <a href="https://kanji.netlify.com/96.html" target="_blank">フォント 96 ポイント https://kanji.netlify.com/96.html</a>
+- <a href="https://kanji.netlify.com/128.html" target="_blank">フォント 128 ポイント https://kanji.netlify.com/128.html</a>
+- <a href="https://kanji.netlify.com/160.html" target="_blank">フォント 160 ポイント https://kanji.netlify.com/160.html</a>
+- <a href="https://kanji.netlify.com/192.html" target="_blank">フォント 192 ポイント https://kanji.netlify.com/192.html</a>
+- <a href="https://kanji.netlify.com/224.html" target="_blank">フォント 224 ポイント https://kanji.netlify.com/224.html</a>
+- <a href="https://kanji.netlify.com/256.html" target="_blank">フォント 256 ポイント https://kanji.netlify.com/256.html</a>
 
 表示先は真っ白になりますが、これで正常です。画面全体が入力枠になっていて、<br />
 入力する事で大きく表示されます。
@@ -28,7 +28,7 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 
 実際の動作例は次のページにあります。
 
-- [Web アプリ | 漢字書けな～い。 https://kanji-kakenai.jimdo.com/web-アプリ/](https://kanji-kakenai.jimdo.com/web-%E3%82%A2%E3%83%97%E3%83%AA/)
+- <a href="https://kanji-kakenai.jimdo.com/web-%E3%82%A2%E3%83%97%E3%83%AA/" target="_blank">Web アプリ | 漢字書けな～い。 https://kanji-kakenai.jimdo.com/web-アプリ/</a>
 
 
 ### リンクをクリックして、パソコン版アプリサイズで表示
@@ -54,5 +54,5 @@ javascript:window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,
 漢字書けな～い。は 中仙道 太郎 氏製作「漢字書けな〜い！」シリーズ作品です。<br />
 原作者 中仙道 太郎 氏より許可をいただいています。
 
-- [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
-- **原作 漢字書けな～い！** [iSoftware](http://nakasendo.com/isoft.html) | [最愛のiMacを創る会](http://nakasendo.com/) 
+- <a href="https://kanji-kakenai.jimdo.com/" target="_blank">漢字書けな～い。 https://kanji-kakenai.jimdo.com/</a>
+- **原作 漢字書けな～い！** <a href="http://nakasendo.com/isoft.html" target="_blank">iSoftware</a> | <a href="http://nakasendo.com/" target="_blank">最愛のiMacを創る会</a>
