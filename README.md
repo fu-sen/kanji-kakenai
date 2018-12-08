@@ -6,11 +6,13 @@
 Web アプリにした事で、多くの OS・環境でいろんな表示が可能になっています。<br />
 「漢字書けな～い！」シリーズは Windows・Mac OS 8/9 を原作に、様々なアプリで公開されています。
 
-## 使用方法
-
-「漢字書けな～い。」の Web サイトも参照して下さい。
+「漢字書けな～い。」は 中仙道 太郎 氏製作「漢字書けな〜い！」シリーズ作品です。<br />
+原作者 中仙道 太郎 氏より許可をいただいています。
 
 - [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
+- **原作 漢字書けな～い！** [iSoftware](http://nakasendo.com/isoft.html) | [最愛のiMacを創る会](http://nakasendo.com/) 
+
+## 使用方法
 
 サーバは [Netlify](https://www.netlify.com/) を用いて公開しています。
 
@@ -19,7 +21,9 @@ JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを�
 
 - [フォントサイズ可変版 https://kanji.netlify.com/](https://kanji.netlify.com/)
 
-またはフォントのポイント別に HTML を分けています。
+またはフォントのポイント別に HTML を分けています。<br />
+使用するフォントサイズが決まっている場合、<br />
+JavaScript・Cookie の使用に問題がある場合はこちらを使用できます。
 
 - [フォント 64 ポイント https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
 - [フォント 96 ポイント https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
@@ -57,10 +61,3 @@ javascript:window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,
 <iframe src="https://kanji.netlify.com/96.html" width="100%" height="300" frameborder="0"></iframe>
 ```
 
-## 公開元・原作
-
-「漢字書けな～い。」は 中仙道 太郎 氏製作「漢字書けな〜い！」シリーズ作品です。<br />
-原作者 中仙道 太郎 氏より許可をいただいています。
-
-- [漢字書けな～い。 https://kanji-kakenai.jimdo.com/](https://kanji-kakenai.jimdo.com/)
-- **原作 漢字書けな～い！** [iSoftware](http://nakasendo.com/isoft.html) | [最愛のiMacを創る会](http://nakasendo.com/) 
