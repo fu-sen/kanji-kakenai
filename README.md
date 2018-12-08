@@ -17,7 +17,7 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを可変できるバージョンです。<br />
 フォントサイズは Cookie に保存します。（使用から約 1 年有効）
 
-- [フォント可変版 https://kanji.netlify.com/](https://kanji.netlify.com/)
+- [フォントサイズ可変版 https://kanji.netlify.com/](https://kanji.netlify.com/)
 
 またはフォントのポイント別に HTML を分けています。
 
