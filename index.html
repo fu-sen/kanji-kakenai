@@ -60,18 +60,17 @@ var fsize = 128;
 
 function getsize()
 {
-  getcook = document.cookie.split(';');
-  namevalue = getcook.split('=');
-  fsize = namevalue[1] + 0;
+  var csize = document.cookie | 0;
 
-  if (fsize >= 64 && fsize <= 256)
+  if (csize >= 64 && csize <= 256)
   {
-    document.getElementById('textarea').style.fontSize = fsize + 'pt';
-    document.cookie = "size=" + fsize + ";max-age=32000000";
+    document.getElementById('textarea').style.fontSize = csize + 'pt';
+    document.cookie = csize + ";max-age=32000000";
+    fsize = csize;
   }
   else
   {
-    document.cookie = "size=;max-age=32000000";
+    document.cookie = ";max-age=32000000";
   }
 }
 
@@ -79,9 +78,9 @@ function larger()
 {
   if (fsize < 256)
   {
-     fsize += 32;
-     document.getElementById('textarea').style.fontSize = fsize + 'pt';
-     document.cookie = "size=" + fsize + ";max-age=32000000";
+    fsize += 32;
+    document.getElementById('textarea').style.fontSize = fsize + 'pt';
+    document.cookie = fsize + ";max-age=32000000";
   }
 }
 
@@ -89,9 +88,9 @@ function smaller()
 {
   if (fsize > 64)
   {
-     fsize -= 32;
+    fsize -= 32;
     document.getElementById('textarea').style.fontSize = fsize + 'pt';
-    document.cookie = "size=" + fsize + ";max-age=32000000";
+    document.cookie = fsize + ";max-age=32000000";
   }
 }
 </script>
