@@ -21,6 +21,8 @@ JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを�
 
 - [**フォントサイズ可変版** https://kanji.netlify.com/](https://kanji.netlify.com/)
 
+※ 2020年4月14日より kanji.netlify.com → kanji.netlify.app へ変更されます。
+
 またはフォントのポイント別に HTML を分けています。\
 使用するフォントサイズが決まっている場合、\
 JavaScript・Cookie の使用に問題がある場合はこちらを使用できます。
@@ -32,6 +34,8 @@ JavaScript・Cookie の使用に問題がある場合はこちらを使用でき
 - [**フォント 192 ポイント** https://kanji.netlify.com/192.html](https://kanji.netlify.com/192.html)
 - [**フォント 224 ポイント** https://kanji.netlify.com/224.html](https://kanji.netlify.com/224.html)
 - [**フォント 256 ポイント** https://kanji.netlify.com/256.html](https://kanji.netlify.com/256.html)
+
+※ 2020年4月14日より kanji.netlify.com → kanji.netlify.app へ変更されます。
 
 表示先は真っ白になりますが、これで正常です。画面全体が入力枠になっていて、\
 入力する事で大きく表示されます。
