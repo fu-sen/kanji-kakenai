@@ -14,14 +14,12 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 
 ## 使用方法
 
-サーバは [Netlify](https://www.netlify.com/) を用いて公開しています。
+※ 2020年3月25日より kanji.balloon.net.eu.org へ変更しました。
 
 JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを可変できるバージョンです。\
 フォントサイズは Cookie に保存します。（使用から約 1 年有効）
 
 - [**フォントサイズ可変版** https://kanji.balloon.net.eu.org/](https://kanji.balloon.net.eu.org/)
-
-※ 2020年3月25日より kanji.balloon.net.eu.org へ変更しました。
 
 またはフォントのポイント別に HTML を分けています。\
 使用するフォントサイズが決まっている場合、\
