@@ -19,21 +19,21 @@ Web アプリにした事で、多くの OS・環境でいろんな表示が可�
 JavaScript を用いて右下 ＋ ・ － ボタンでフォントサイズを可変できるバージョンです。\
 フォントサイズは Cookie に保存します。（使用から約 1 年有効）
 
-- [**フォントサイズ可変版** https://kanji.netlify.com/](https://kanji.netlify.com/)
+- [**フォントサイズ可変版** https://kanji.balloon.net.eu.org/](https://kanji.balloon.net.eu.org/)
 
-※ 2020年4月14日より kanji.netlify.com → kanji.netlify.app へ変更されます。
+※ 2020年3月25日より kanji.balloon.net.eu.org へ変更しました。
 
 またはフォントのポイント別に HTML を分けています。\
 使用するフォントサイズが決まっている場合、\
 JavaScript・Cookie の使用に問題がある場合はこちらを使用できます。
 
-- [**フォント 64 ポイント** https://kanji.netlify.com/64.html](https://kanji.netlify.com/64.html)
-- [**フォント 96 ポイント** https://kanji.netlify.com/96.html](https://kanji.netlify.com/96.html)
-- [**フォント 128 ポイント** https://kanji.netlify.com/128.html](https://kanji.netlify.com/128.html)
-- [**フォント 160 ポイント** https://kanji.netlify.com/160.html](https://kanji.netlify.com/160.html)
-- [**フォント 192 ポイント** https://kanji.netlify.com/192.html](https://kanji.netlify.com/192.html)
-- [**フォント 224 ポイント** https://kanji.netlify.com/224.html](https://kanji.netlify.com/224.html)
-- [**フォント 256 ポイント** https://kanji.netlify.com/256.html](https://kanji.netlify.com/256.html)
+- [**フォント 64 ポイント** https://kanji.balloon.net.eu.org/64.html](https://kanji.balloon.net.eu.org/64.html)
+- [**フォント 96 ポイント** https://kanji.balloon.net.eu.org/96.html](https://kanji.balloon.net.eu.org/96.html)
+- [**フォント 128 ポイント** https://kanji.balloon.net.eu.org/128.html](https://kanji.balloon.net.eu.org/128.html)
+- [**フォント 160 ポイント** https://kanji.balloon.net.eu.org/160.html](https://kanji.balloon.net.eu.org/160.html)
+- [**フォント 192 ポイント** https://kanji.balloon.net.eu.org/192.html](https://kanji.balloon.net.eu.org/192.html)
+- [**フォント 224 ポイント** https://kanji.balloon.net.eu.org/224.html](https://kanji.balloon.net.eu.org/224.html)
+- [**フォント 256 ポイント** https://kanji.balloon.net.eu.org/256.html](https://kanji.balloon.net.eu.org/256.html)
 
 ※ 2020年4月14日より kanji.netlify.com → kanji.netlify.app へ変更されます。
 
@@ -50,19 +50,19 @@ JavaScript・Cookie の使用に問題がある場合はこちらを使用でき
 ### リンクをクリックして、パソコン版アプリサイズで表示（画像の表示）
 
 ```
-<div><a onclick="window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes'); return false;" href="javascript:void window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')">漢字書けな〜い。を起動</a></div>
+<div><a onclick="window.open('https://kanji.balloon.net.eu.org/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes'); return false;" href="javascript:void window.open('https://kanji.balloon.net.eu.org/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')">漢字書けな〜い。を起動</a></div>
 ```
 
 ### ブックマークレット（ブックマークに入れて起動）
 
 ```
-javascript:window.open('https://kanji.netlify.com/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')
+javascript:window.open('https://kanji.balloon.net.eu.org/96.html', 'kanji', 'width=600,height=400,menubar=no,toolbar=no,scrollbars=yes,location=no,resizable=yes')
 ```
 
 ### iframe （Web サイト貼り付け・ブログパーツ等に）
 
 ```
-<iframe src="https://kanji.netlify.com/96.html" width="100%" height="300" frameborder="0"></iframe>
+<iframe src="https://kanji.balloon.net.eu.org/96.html" width="100%" height="300" frameborder="0"></iframe>
 ```
 
 ## ライセンス
